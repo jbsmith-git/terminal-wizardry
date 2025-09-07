@@ -1,3 +1,3 @@
-## Terminal Wizardry Repo
+## Terminal Wizardry Repo 🪄
 
-A repo to store handy terminal snippets.
+Handy snippets for use across different projects.
