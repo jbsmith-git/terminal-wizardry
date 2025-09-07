@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Package",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/app",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {"DEBUG": "TRUE"}
+        },
+        {
+            "name": "Debug Module",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "env": {"DEBUG": "TRUE"}
+        }
+    ]
+}
